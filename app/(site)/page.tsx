@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div >
-      HEllo
+      Hello this is under development
     </div>
   )
 }
