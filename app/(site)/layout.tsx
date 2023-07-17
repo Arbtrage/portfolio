@@ -13,13 +13,13 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode
 }) {
-  // const pages=await getPages();
-  // console.log(pages)
+  const pages=await getPages();
+  console.log(pages)
   return (
     <html lang="en" className="bg-custom-background text-custom-color max-w-4xl mx-auto py-5 ">
       <body className='mx-5'>
         <Providers>
-          <Navbar/>
+          <Navbar pages={pages}/>
           {children}
         </Providers>
       </body>
