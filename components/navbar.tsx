@@ -3,6 +3,7 @@ import NextLink from "next/link";
 import DarkModeToggle from "./toggle";
 import React from "react";
 import { HamburgerIcon } from "@chakra-ui/icons";
+import Logo from "./logo";
 import {
   Container,
   Box,
@@ -18,7 +19,7 @@ const Navbar = () => {
   return (
     <Box className="flex items-center justify-between">
       <Container className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
-        Sayantan
+        <Logo/>
       </Container>
       <div className="flex gap-20 ">
         <div className="hidden sm:flex items-center gap-7 text-sm">
