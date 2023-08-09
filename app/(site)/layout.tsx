@@ -1,8 +1,6 @@
-
 import "../globals.css";
 import Navbar from "@/components/navbar";
 import Providers from "./Provider";
-import { AnimatePresence } from "framer-motion";
 
 export const metadata = {
   title: "Arbitrage",

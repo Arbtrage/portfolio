@@ -1,7 +1,7 @@
 // import { HamburgerIcon } from '@chakra-ui/icons'
 // "use client"
 import { AnimatePresence, motion } from "framer-motion";
-import { Box, Heading, chakra } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import Image from 'next/image'
 import ProfileImage from './profile.jpg'
 
@@ -28,6 +28,7 @@ export default function Index() {
               >
                 I&apos;m Sayantan
               </Heading>
+              This site is under development
             </Box>
             <Box
                 borderWidth={2}
@@ -43,7 +44,7 @@ export default function Index() {
                   alt="Profile image"
                   width={300}
                   height={300}
-                  className="object-cover  "
+                  className="object-cover"
                 />
               </Box>
           </Box>
