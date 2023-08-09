@@ -19,8 +19,8 @@ export default async function RootLayout({
     >
       <body className="mx-5">
         <Providers>
-          <Navbar />
-          <main className="py-20">{children}</main>
+          <Navbar/>
+          <main className="pt-20">{children}</main>
         </Providers>
       </body>
     </html>

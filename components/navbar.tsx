@@ -19,13 +19,16 @@ const Navbar = () => {
   return (
     <Box className="flex items-center justify-between">
       <Container className="bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
-        <Logo/>
+        <Logo />
       </Container>
       <div className="flex gap-20 ">
         <div className="hidden sm:flex items-center gap-7 text-sm">
           <NextLink href="/">About</NextLink>
           <NextLink href="/projects">Projects</NextLink>
-          <NextLink target="_blank" href="https://github.com/Arbtrage/portfolio">
+          <NextLink
+            target="_blank"
+            href="https://github.com/Arbtrage/portfolio"
+          >
             Source
           </NextLink>
         </div>
@@ -49,7 +52,11 @@ const Navbar = () => {
               <MenuItem as={Link} href="/projects">
                 Projects
               </MenuItem>
-              <MenuItem as={Link} target="_blank" href="https://github.com/Arbtrage/portfolio">
+              <MenuItem
+                as={Link}
+                target="_blank"
+                href="https://github.com/Arbtrage/portfolio"
+              >
                 View Source
               </MenuItem>
             </MenuList>
