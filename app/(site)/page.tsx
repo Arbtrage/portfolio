@@ -2,6 +2,7 @@
 import Index from ".";
 import About from "@/components/About";
 import { AnimatePresence, motion } from "framer-motion";
+
 export default function Home() {
   return (
     <div>

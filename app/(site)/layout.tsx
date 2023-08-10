@@ -1,6 +1,5 @@
 import "../globals.css";
 import Navbar from "@/components/navbar";
-import Providers from "./Provider";
 
 export const metadata = {
   title: "Arbitrage",
@@ -18,10 +17,8 @@ export default async function RootLayout({
       className="bg-custom-background text-custom-color max-w-4xl mx-auto py-5 "
     >
       <body className="mx-5">
-        <Providers>
-          <Navbar/>
-          <main className="pt-20">{children}</main>
-        </Providers>
+        <Navbar />
+        <main className="pt-20">{children}</main>
       </body>
     </html>
   );

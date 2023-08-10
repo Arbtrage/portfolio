@@ -4,15 +4,8 @@
 
 
 :root {
-  --light-background:#f0e7db ;
   --dark-background: #202023;
-  --light-color:black;
   --dark-color:white;
-}
-
-html.light {
-  --background: var(--light-background);
-  --color:var(--light-color)
 }
 
 html {
