@@ -13,6 +13,9 @@ module.exports = {
           color:"var(--color)"
         },
       },
+      fontFamily: {
+        'custom': ['Cormorant Garamond', 'sans-serif'],
+    },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

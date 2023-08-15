@@ -8,13 +8,12 @@ const imageStyle = {
 export default function Index() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-6">
-      <div>
-        <div className="text-center">
-          Hello
+      <div className="my-auto">
+        <div className="text-center font-bold">
+          Hello ,
           <h1 className=" text-5xl pb-6 bg-gradient-to-r from-orange-400 via-red-500 to-purple-600 bg-clip-text text-transparent">
             I&apos;m Sayantan
           </h1>
-          <h2 className="font-bold italic">( Wanderer / Developer / Weeb )</h2>
         </div>
       </div>
       <div className="justify-items-center">

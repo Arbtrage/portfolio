@@ -1,7 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+      font-family: Cormorant Garamond;
+  }
+}
+
+html::-webkit-scrollbar {
+  width: 5px;
+}
+
+html::-webkit-scrollbar-track {
+  background: #202023;
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgb(136, 136, 136);
+  border-radius: 20px;
+}
 
 :root {
   --dark-background: #202023;
@@ -12,3 +32,4 @@ html {
   --background: var(--dark-background);
   --color:var(--dark-color)
 }
+

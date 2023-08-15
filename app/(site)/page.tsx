@@ -1,6 +1,7 @@
 "use client";
 import Index from ".";
 import About from "@/components/About";
+import Bio from "@/components/bio";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
            I&apos;m a Software Engineer based in India !
           </div>
           <About/>
+          <Bio/>
         </motion.div>
       </AnimatePresence>
     </div>
