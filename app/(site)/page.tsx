@@ -2,6 +2,7 @@
 import Index from ".";
 import About from "@/components/About";
 import Bio from "@/components/bio";
+import Contact from "@/components/contact";
 import { AnimatePresence, motion } from "framer-motion";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
           </div>
           <About/>
           <Bio/>
+          <Contact/>
         </motion.div>
       </AnimatePresence>
     </div>

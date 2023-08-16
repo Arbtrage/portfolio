@@ -1,7 +1,7 @@
 import Link from "next/link";
 import "../globals.css";
 import Navbar from "@/components/navbar";
-
+import Footer from "@/components/footer";
 export const metadata = {
   title: "Arbitrage",
   description: "Welcome to the portfolio of Sayantan",
@@ -15,7 +15,7 @@ export default async function RootLayout({
   return (
     <html lang="en" className="bg-custom-background text-custom-color mx-auto">
       <body className=" overflow-x-hidden min-w-screen flex min-h-screen flex-col items-center justify-between">
-        <main className="p-4 py-12 gap-6 w-full lg:w-[55%]">
+        <main className="p-4 pt-12 pb-1 gap-6 w-full lg:w-[55%]">
           <section className="w-full flex gap-4 justify-start mb-6 p-2">
             <div className="flex flex-col gap-2 justify-center">
               <Link
@@ -31,6 +31,7 @@ export default async function RootLayout({
           </section>
           <Navbar />
           {children}
+          <Footer/>
         </main>
       </body>
     </html>

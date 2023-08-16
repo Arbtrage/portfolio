@@ -14,16 +14,17 @@ const navItems = [
     name: "Projects",
   },
   {
+    path:"/wanderlust",
+    name:"Wanderlust",
+  },
+  {
     path: "https://github.com/Arbtrage/portfolio",
     name: "Source",
-  },
+  }
 ];
 
 const Navbar = () => {
   let pathname = usePathname() || "/";
-  if (pathname.includes("/writing/")) {
-    pathname = "/writing";
-  }
 
   const [hoveredPath, setHoveredPath] = useState(pathname);
 
