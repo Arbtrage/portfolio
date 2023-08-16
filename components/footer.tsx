@@ -1,5 +1,3 @@
-// import Link from "next/link";
-
 const Footer = () => {
     return (
       <div className="text-center mt-8 opacity-40 text-sm">

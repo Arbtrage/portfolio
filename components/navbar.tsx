@@ -14,13 +14,13 @@ const navItems = [
     name: "Projects",
   },
   {
+    path: "/experience",
+    name: "Experience",
+  },
+  {
     path:"/wanderlust",
     name:"Wanderlust",
   },
-  {
-    path: "https://github.com/Arbtrage/portfolio",
-    name: "Source",
-  }
 ];
 
 const Navbar = () => {
